@@ -1,0 +1,24 @@
+import string
+import random
+
+print('''
+ | _______________ |
+ | |XXXXXXXXXXXXX| |
+ | |XXXXXXXXXXXXX| |
+ | |XXXXXXXXXXXXX| |
+ | |XXXXXXXXXXXXX| |
+ | |XXXXXXXXXXXXX| |
+ |_________________|
+     _[_______]_
+ ___[___________]___
+|         [_____] []|__
+|         [_____] []|  \__
+L___________________J     \ \___\/
+ ___________________      /\
+/###################\    (__)
+    Password Generator                                                                                                                >
+    ''')
+def generate_password():
+    length = 12
+    uppercase_letters = string.ascii_uppercase
+    lowercase_letters = string.ascii_lowercase
