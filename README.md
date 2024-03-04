@@ -1,2 +1,2 @@
 # Pass-gen
-Password Generator
+python3 password-generator.py
